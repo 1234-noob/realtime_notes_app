@@ -32,14 +32,14 @@ export default function NoteForm({ onCreated }) {
         </div>
       )}
       <input
-        className="input text-black placeholder:text-gray-700"
+        className="input text-black bg-white placeholder:text-gray-700"
         placeholder="Title"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         required
       />
       <textarea
-        className="input h-28 text-black placeholder:text-gray-700"
+        className="input h-28 text-black bg-white placeholder:text-gray-700"
         placeholder="Content"
         value={content}
         onChange={(e) => setContent(e.target.value)}

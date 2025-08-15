@@ -22,8 +22,6 @@ export default function Notes() {
     })();
   }, []);
 
-  console.log(notes);
-
   useEffect(() => {
     function onCreated(note) {
       setNotes((prev) => {
